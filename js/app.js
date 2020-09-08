@@ -9,12 +9,6 @@ if (hours > 6 && hours < 17) {
     document.body.style.backgroundImage = "url('img/night.png')";
 }
 
-const apiMain = {
-    key: "024a13e3a6087402d23847917d135a1e",
-    baseUrl: "https://api.openweathermap.org/data/2.5/",
-    iconUrl: "http://openweathermap.org/img/wn/"
-};
-
 const baseInfo = {
     city: 'Beira'
 }
